@@ -1,0 +1,76 @@
+%%
+% Provides package "calligramath.sty"
+% Created by Max Greenberg on October 10, 2021
+% Based on code from the TeX Stack Exchange
+% Package for typesetting calligraphic script provided by calligra.sty in math environments
+% Purpose to provide lowercase script letters and bold variants
+% Automatically loads calligra.sty
+
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{calligramath}
+\RequirePackage{calligra}
+\RequirePackage{amsmath}
+
+\DeclareMathAlphabet{\calligramath}{T1}{calligra}{m}{n}
+\DeclareFontShape{T1}{calligra}{m}{n}{<->s*[2.2]callig15}{}
+
+% Macros for lowercase letters
+\newcommand{\scripta}{\mspace{-2mu}\calligramath{a}\mspace{3mu}}
+\newcommand{\scriptb}{\mspace{-2mu}\calligramath{b}\mspace{3mu}}
+\newcommand{\scriptc}{\mspace{-2mu}\calligramath{c}\mspace{3mu}}
+\newcommand{\scriptd}{\mspace{-2mu}\calligramath{d}\mspace{3mu}}
+\newcommand{\scripte}{\mspace{-2mu}\calligramath{e}\mspace{3mu}}
+\newcommand{\scriptf}{\mspace{-2mu}\calligramath{f}\mspace{3mu}}
+\newcommand{\scriptg}{\mspace{-2mu}\calligramath{g}\mspace{3mu}}
+\newcommand{\scripth}{\mspace{-2mu}\calligramath{h}\mspace{3mu}}
+\newcommand{\scripti}{\mspace{-2mu}\calligramath{i}\mspace{3mu}}
+\newcommand{\scriptj}{\mspace{-2mu}\calligramath{j}\mspace{3mu}}
+\newcommand{\scriptk}{\mspace{-2mu}\calligramath{k}\mspace{3mu}}
+\newcommand{\scriptl}{\mspace{-2mu}\calligramath{l}\mspace{3mu}}
+\newcommand{\scriptm}{\mspace{-2mu}\calligramath{m}\mspace{3mu}}
+\newcommand{\scriptn}{\mspace{-2mu}\calligramath{n}\mspace{3mu}}
+\newcommand{\scripto}{\mspace{-2mu}\calligramath{o}\mspace{3mu}}
+\newcommand{\scriptp}{\mspace{-2mu}\calligramath{p}\mspace{3mu}}
+\newcommand{\scriptq}{\mspace{-2mu}\calligramath{q}\mspace{3mu}}
+\newcommand{\scriptr}{\mspace{-2mu}\calligramath{r}\mspace{3mu}}
+\newcommand{\scripts}{\mspace{-2mu}\calligramath{s}\mspace{3mu}}
+\newcommand{\scriptt}{\mspace{-2mu}\calligramath{t}\mspace{3mu}}
+\newcommand{\scriptu}{\mspace{-2mu}\calligramath{u}\mspace{3mu}}
+\newcommand{\scriptv}{\mspace{-2mu}\calligramath{v}\mspace{3mu}}
+\newcommand{\scriptw}{\mspace{-2mu}\calligramath{w}\mspace{3mu}}
+\newcommand{\scriptx}{\mspace{-2mu}\calligramath{x}\mspace{3mu}}
+\newcommand{\scripty}{\mspace{-2mu}\calligramath{y}\mspace{3mu}}
+\newcommand{\scriptz}{\mspace{-2mu}\calligramath{z}\mspace{3mu}}
+
+% Macros for bold lowercase letters
+\newcommand{\bscripta}{\pmb{\scripta}}
+\newcommand{\bscriptb}{\pmb{\scriptb}}
+\newcommand{\bscriptc}{\pmb{\scriptc}}
+\newcommand{\bscriptd}{\pmb{\scriptd}}
+\newcommand{\bscripte}{\pmb{\scripte}}
+\newcommand{\bscriptf}{\pmb{\scriptf}}
+\newcommand{\bscriptg}{\pmb{\scriptg}}
+\newcommand{\bscripth}{\pmb{\scripth}}
+\newcommand{\bscripti}{\pmb{\scirpti}}
+\newcommand{\bscriptj}{\pmb{\scriptj}}
+\newcommand{\bscriptk}{\pmb{\scriptk}}
+\newcommand{\bscriptl}{\pmb{\scirptl}}
+\newcommand{\bscriptm}{\pmb{\scriptm}}
+\newcommand{\bscriptn}{\pmb{\scriptn}}
+\newcommand{\bscripto}{\pmb{\scripto}}
+\newcommand{\bscriptp}{\pmb{\scriptp}}
+\newcommand{\bscriptq}{\pmb{\scriptq}}
+\newcommand{\bscriptr}{\pmb{\scriptr}}
+\newcommand{\bscripts}{\pmb{\scripts}}
+\newcommand{\bscriptt}{\pmb{\scriptt}}
+\newcommand{\bscriptu}{\pmb{\scriptu}}
+\newcommand{\bscriptv}{\pmb{\scriptv}}
+\newcommand{\bscriptw}{\pmb{\scriptw}}
+\newcommand{\bscriptx}{\pmb{\scriptx}}
+\newcommand{\bscripty}{\pmb{\scripty}}
+\newcommand{\bscriptz}{\pmb{\scriptz}}
+
+\endinput
+
+% end of file "calligramath.sty"
+%%
